@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A550D78F1CB32846000A5B2F /* Modal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A550D78E1CB32846000A5B2F /* Modal.storyboard */; };
+		A550D7911CB32889000A5B2F /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A550D7901CB32889000A5B2F /* Modal.swift */; };
+		A5C5F2181CBD6A7D0002DD15 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5F2171CBD6A7D0002DD15 /* ViewControllerTwo.swift */; };
+		A5C5F21C1CBD80A50002DD15 /* ViewControllerTwoChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5F21B1CBD80A50002DD15 /* ViewControllerTwoChild.swift */; };
 		A5C9F4651CA0F25B00BF4CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9F4641CA0F25B00BF4CE9 /* AppDelegate.swift */; };
-		A5C9F4671CA0F25B00BF4CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9F4661CA0F25B00BF4CE9 /* ViewController.swift */; };
 		A5C9F46A1CA0F25B00BF4CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C9F4681CA0F25B00BF4CE9 /* Main.storyboard */; };
 		A5C9F46C1CA0F25B00BF4CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C9F46B1CA0F25B00BF4CE9 /* Assets.xcassets */; };
 		A5C9F46F1CA0F25B00BF4CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C9F46D1CA0F25B00BF4CE9 /* LaunchScreen.storyboard */; };
 		A5C9F47A1CA0F25B00BF4CE9 /* TabbedNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9F4791CA0F25B00BF4CE9 /* TabbedNavigationTests.swift */; };
 		A5C9F4851CA0F25B00BF4CE9 /* TabbedNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9F4841CA0F25B00BF4CE9 /* TabbedNavigationUITests.swift */; };
+		A5C9F4931CA0F35C00BF4CE9 /* MainNavigationContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9F4921CA0F35C00BF4CE9 /* MainNavigationContainerViewController.swift */; };
+		A5DCE5011CB41E9B0080ABA1 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DCE5001CB41E9B0080ABA1 /* ViewControllerOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A550D78E1CB32846000A5B2F /* Modal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Modal.storyboard; sourceTree = "<group>"; };
+		A550D7901CB32889000A5B2F /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		A5C5F2171CBD6A7D0002DD15 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		A5C5F21B1CBD80A50002DD15 /* ViewControllerTwoChild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwoChild.swift; sourceTree = "<group>"; };
 		A5C9F4611CA0F25B00BF4CE9 /* TabbedNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C9F4641CA0F25B00BF4CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5C9F4661CA0F25B00BF4CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5C9F4691CA0F25B00BF4CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5C9F46B1CA0F25B00BF4CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C9F46E1CA0F25B00BF4CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		A5C9F4801CA0F25B00BF4CE9 /* TabbedNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbedNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C9F4841CA0F25B00BF4CE9 /* TabbedNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedNavigationUITests.swift; sourceTree = "<group>"; };
 		A5C9F4861CA0F25B00BF4CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C9F4921CA0F35C00BF4CE9 /* MainNavigationContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationContainerViewController.swift; sourceTree = "<group>"; };
+		A5DCE5001CB41E9B0080ABA1 /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				A5C9F4641CA0F25B00BF4CE9 /* AppDelegate.swift */,
-				A5C9F4661CA0F25B00BF4CE9 /* ViewController.swift */,
+				A5C9F4921CA0F35C00BF4CE9 /* MainNavigationContainerViewController.swift */,
 				A5C9F4681CA0F25B00BF4CE9 /* Main.storyboard */,
+				A5DCE5021CB41EA40080ABA1 /* Child Views */,
 				A5C9F46B1CA0F25B00BF4CE9 /* Assets.xcassets */,
 				A5C9F46D1CA0F25B00BF4CE9 /* LaunchScreen.storyboard */,
 				A5C9F4701CA0F25B00BF4CE9 /* Info.plist */,
@@ -123,6 +134,18 @@
 				A5C9F4861CA0F25B00BF4CE9 /* Info.plist */,
 			);
 			path = TabbedNavigationUITests;
+			sourceTree = "<group>";
+		};
+		A5DCE5021CB41EA40080ABA1 /* Child Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5DCE5001CB41E9B0080ABA1 /* ViewControllerOne.swift */,
+				A5C5F2171CBD6A7D0002DD15 /* ViewControllerTwo.swift */,
+				A5C5F21B1CBD80A50002DD15 /* ViewControllerTwoChild.swift */,
+				A550D7901CB32889000A5B2F /* Modal.swift */,
+				A550D78E1CB32846000A5B2F /* Modal.storyboard */,
+			);
+			name = "Child Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A550D78F1CB32846000A5B2F /* Modal.storyboard in Resources */,
 				A5C9F46F1CA0F25B00BF4CE9 /* LaunchScreen.storyboard in Resources */,
 				A5C9F46C1CA0F25B00BF4CE9 /* Assets.xcassets in Resources */,
 				A5C9F46A1CA0F25B00BF4CE9 /* Main.storyboard in Resources */,
@@ -256,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C9F4671CA0F25B00BF4CE9 /* ViewController.swift in Sources */,
+				A5C5F2181CBD6A7D0002DD15 /* ViewControllerTwo.swift in Sources */,
 				A5C9F4651CA0F25B00BF4CE9 /* AppDelegate.swift in Sources */,
+				A550D7911CB32889000A5B2F /* Modal.swift in Sources */,
+				A5C9F4931CA0F35C00BF4CE9 /* MainNavigationContainerViewController.swift in Sources */,
+				A5C5F21C1CBD80A50002DD15 /* ViewControllerTwoChild.swift in Sources */,
+				A5DCE5011CB41E9B0080ABA1 /* ViewControllerOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +512,7 @@
 				A5C9F48B1CA0F25B00BF4CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5C9F48C1CA0F25B00BF4CE9 /* Build configuration list for PBXNativeTarget "TabbedNavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +521,7 @@
 				A5C9F48E1CA0F25B00BF4CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5C9F48F1CA0F25B00BF4CE9 /* Build configuration list for PBXNativeTarget "TabbedNavigationUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +530,7 @@
 				A5C9F4911CA0F25B00BF4CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
