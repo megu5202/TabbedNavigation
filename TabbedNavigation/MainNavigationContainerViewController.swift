@@ -19,6 +19,7 @@ public class MainNavigationContainerViewController: UIViewController, UITabBarCo
     
     var navigationControllerOne: UINavigationController?
     var navigationControllerTwo: UINavigationController?
+    var navigationControllerThree: UINavigationController?
     var rawViewController: UIViewController?
     var modalViewControllerOne: UIViewController?
     
@@ -44,15 +45,17 @@ public class MainNavigationContainerViewController: UIViewController, UITabBarCo
         let viewControllerTwo = ViewControllerTwo()
         navigationControllerTwo = UINavigationController(rootViewController: viewControllerTwo)
         
+        let viewControllerThree = ViewControllerThree()
+        navigationControllerThree = UINavigationController(rootViewController: viewControllerThree)
+        
         rawViewController = UIViewController()
         rawViewController?.view.backgroundColor = UIColor.redColor()
         rawViewController?.tabBarItem = UITabBarItem(title: "Raw", image: UIImage(), tag: 1)
         
-        let viewControllers = [navigationControllerOne!, navigationControllerTwo!, rawViewController!]
+        let viewControllers = [navigationControllerOne!, navigationControllerTwo!, navigationControllerThree!, rawViewController!]
         
         mainNavigationTabBarController?.setViewControllers(viewControllers, animated: false)
         mainNavigationTabBarController?.selectedIndex = 0
-        mainNavigationTabBarController?.hidesBottomBarWhenPushed = true
     }
     
     // Segue

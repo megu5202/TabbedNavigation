@@ -11,6 +11,7 @@
 		A550D7911CB32889000A5B2F /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A550D7901CB32889000A5B2F /* Modal.swift */; };
 		A5C5F2181CBD6A7D0002DD15 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5F2171CBD6A7D0002DD15 /* ViewControllerTwo.swift */; };
 		A5C5F21C1CBD80A50002DD15 /* ViewControllerTwoChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5F21B1CBD80A50002DD15 /* ViewControllerTwoChild.swift */; };
+		A5C5F21E1CBEABE00002DD15 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5F21D1CBEABE00002DD15 /* ViewControllerThree.swift */; };
 		A5C9F4651CA0F25B00BF4CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9F4641CA0F25B00BF4CE9 /* AppDelegate.swift */; };
 		A5C9F46A1CA0F25B00BF4CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C9F4681CA0F25B00BF4CE9 /* Main.storyboard */; };
 		A5C9F46C1CA0F25B00BF4CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C9F46B1CA0F25B00BF4CE9 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		A550D7901CB32889000A5B2F /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		A5C5F2171CBD6A7D0002DD15 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		A5C5F21B1CBD80A50002DD15 /* ViewControllerTwoChild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwoChild.swift; sourceTree = "<group>"; };
+		A5C5F21D1CBEABE00002DD15 /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 		A5C9F4611CA0F25B00BF4CE9 /* TabbedNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C9F4641CA0F25B00BF4CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C9F4691CA0F25B00BF4CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				A5DCE5001CB41E9B0080ABA1 /* ViewControllerOne.swift */,
 				A5C5F2171CBD6A7D0002DD15 /* ViewControllerTwo.swift */,
 				A5C5F21B1CBD80A50002DD15 /* ViewControllerTwoChild.swift */,
+				A5C5F21D1CBEABE00002DD15 /* ViewControllerThree.swift */,
 				A550D7901CB32889000A5B2F /* Modal.swift */,
 				A550D78E1CB32846000A5B2F /* Modal.storyboard */,
 			);
@@ -285,6 +288,7 @@
 				A550D7911CB32889000A5B2F /* Modal.swift in Sources */,
 				A5C9F4931CA0F35C00BF4CE9 /* MainNavigationContainerViewController.swift in Sources */,
 				A5C5F21C1CBD80A50002DD15 /* ViewControllerTwoChild.swift in Sources */,
+				A5C5F21E1CBEABE00002DD15 /* ViewControllerThree.swift in Sources */,
 				A5DCE5011CB41E9B0080ABA1 /* ViewControllerOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
